@@ -1,0 +1,79 @@
+Boston Dynamics' Spot Robot Dog Goes on Sale
+Here's everything we know about Boston Dynamics' first commercial robot
+By Erico Guizzo
+Boston Dynamics' Spot
+Photo: Bob O'Connor
+Boston Dynamics has finally released details on price, availability, and applications for its Spot quadruped robot.
+
+Boston Dynamics is announcing this morning that Spot, its versatile quadruped robot, is now for sale. The machine’s animal-like behavior regularly electrifies crowds at tech conferences, and like other Boston Dynamics’ robots, Spot is a YouTube sensation whose videos amass millions of views.
+
+Now anyone interested in buying a Spot—or a pack of them—can go to the company’s website and submit an order form. But don’t pull out your credit card just yet. Spot may cost as much as a luxury car, and it is not really available to consumers. The initial sale, described as an “early adopter program,” is targeting businesses. Boston Dynamics wants to find customers in select industries and help them deploy Spots in real-world scenarios.
+
+“What we’re doing is the productization of Spot,” Boston Dynamics CEO Marc Raibert tells IEEE Spectrum. “It’s really a milestone for us going from robots that work in the lab to these that are hardened for work out in the field.”
+
+Boston Dynamics has always been a secretive company, but last month, in preparation for launching Spot (formerly SpotMini), it allowed our photographers into its headquarters in Waltham, Mass., for a special shoot. In that session, we captured Spot and also Atlas—the company’s highly dynamic humanoid—in action, walking, climbing, and jumping.
+
+You can see Spot’s photo interactives on our Robots Guide. (The Atlas interactives will appear in coming weeks.)
+Animated gif of Boston Dynamics' Spot walking
+Gif: Bob O’Connor/Robots.ieee.org
+
+And if you’re in the market for a robot dog, here’s everything we know about Boston Dynamics’ plans for Spot.
+
+Who can buy a Spot?
+
+If you’re interested in one, you should go to Boston Dynamics’ website and take a look at the information the company requires from potential buyers. Again, the focus is on businesses. Boston Dynamics says it wants to get Spots out to initial customers that “either have a compelling use case or a development team that we believe can do something really interesting with the robot,” says VP of business development Michael Perry. “Just because of the scarcity of the robots that we have, we’re going to have to be selective about which partners we start working together with.”
+
+What can Spot do?
+
+As you’ve probably seen on the YouTube videos, Spot can walk, trot, avoid obstacles, climb stairs, and much more. The robot’s hardware is almost completely custom, with powerful compute boards for control, and five sensor modules located on every side of Spot’s body, allowing it to survey the space around itself from any direction. The legs are powered by 12 custom motors with a reduction, with a top speed of 1.6 meters per second. The robot can operate for 90 minutes on a charge. In addition to the basic configuration, you can integrate up to 14 kilograms of extra hardware to a payload interface. Among the payload packages Boston Dynamics plans to offer are a 6 degrees-of-freedom arm, a version of which can be seen in some of the YouTube videos, and a ring of cameras called SpotCam that could be used to create Street View–type images inside buildings.
+Boston Dynamics' Spot and its hardware payload
+Image: Boston Dynamics
+
+How do you control Spot?
+
+Learning to drive the robot using its gaming-style controller “takes 15 seconds,” says CEO Marc Raibert. He explains that while teleoperating Spot, you may not realize that the robot is doing a lot of the work. “You don’t really see what that is like until you’re operating the joystick and you go over a box and you don’t have to do anything,” he says. “You’re practically just thinking about what you want to do and the robot takes care of everything.” The control methods have evolved significantly since the company’s first quadruped robots, machines like BigDog and LS3. “The control in those days was much more monolithic, and now we have what we call a sequential composition controller,” Raibert says, “which lets the system have control of the dynamics in a much broader variety of situations.” That means that every time one of Spot’s feet touches or doesn’t touch the ground, this different state of the body affects the basic physical behavior of the robot, and the controller adjusts accordingly. “Our controller is designed to understand what that state is and have different controls depending upon the case,” he says.
+
+How much does Spot cost?
+
+Boston Dynamics would not give us specific details on prices, saying only that potential customers should contact them for a quote and that there is going to be a leasing option. It’s understandable: As with any expensive and complex product, prices can vary on a case by case basis and depend on factors such as configuration, availability, level of support, and so forth. When we pressed the company for at least an approximate base price, Perry answered: “Our general guidance is that the total cost of the early adopter program lease will be less than the price of a car—but how nice a car will depend on the number of Spots leased and how long the customer will be leasing the robot.”
+
+Can Spot do mapping and SLAM out of the box?
+
+The robot’s perception system includes cameras and 3D sensors (there is no lidar), used to avoid obstacles and sense the terrain so it can climb stairs and walk over rubble. It’s also used to create 3D maps. According to Boston Dynamics, the first software release will offer just teleoperation. But a second release, to be available in the next few weeks, will enable more autonomous behaviors. For example, it will be able to do mapping and autonomous navigation—similar to what the company demonstrated in a video last year, showing how you can drive the robot through an environment, create a 3D point cloud of the environment, and then set waypoints within that map for Spot to go out and execute that mission. For customers that have their own autonomy stack and are interested in using those on Spot, Boston Dynamics made it “as plug and play as possible in terms of how third-party software integrates into Spot’s system,” Perry says. This is done mainly via an API.
+
+How does Spot’s API works?
+
+Boston Dynamics built an API so that customers can create application-level products with Spot without having to deal with low-level control processes. “Rather than going and building joint-level kinematic access to the robot,” Perry explains, “we created a high-level API and SDK that allows people who are used to Web app development or development of missions for drones to use that same scope, and they’ll be able to build applications for Spot.”
+
+What applications should we see first?
+
+Boston Dynamics envisions Spot as a platform: a versatile mobile robot that companies can use to build applications based on their needs. What types of applications? The company says the best way to find out is to put Spot in the hands of as many users as possible and let them develop the applications. Some possibilities include performing remote data collection and light manipulation in construction sites; monitoring sensors and infrastructure at oil and gas sites; and carrying out dangerous missions such as bomb disposal and hazmat inspections. There are also other promising areas such as security, package delivery, and even entertainment. “We have some initial guesses about which markets could benefit most from this technology, and we’ve been engaging with customers doing proof-of-concept trials,” Perry says. “But at the end of the day, that value story is really going to be determined by people going out and exploring and pushing the limits of the robot.”
+
+Boston Dynamics' Spot posing
+Photo: Bob O'Connor
+How many Spots have been produced?
+
+Last June, Boston Dynamics said it was planning to build about a hundred Spots by the end of the year, eventually ramping up production to a thousand units per year by the middle of this year. The company admits that it is not quite there yet. It has built close to a hundred beta units, which it has used to test and refine the final design. This version is now being mass manufactured, but the company is still “in the early tens of robots,” Perry says.
+How did Boston Dynamics test Spot?
+
+The company has tested the robots during proof-of-concept trials with customers, and at least one is already using Spot to survey construction sites. The company has also done reliability tests at its facility in Waltham, Mass. “We drive around, not quite day and night, but hundreds of miles a week, so that we can collect reliability data and find bugs,” Raibert says.
+
+What about competitors?
+
+In recent years, there’s been a proliferation of quadruped robots that will compete in the same space as Spot. The most prominent of these is ANYmal, from ANYbotics, a Swiss company that spun out of ETH Zurich. Other quadrupeds include Vision from Ghost Robotics, used by one of the teams in the DARPA Subterranean Challenge; and Laikago and Aliengo from Unitree Robotics, a Chinese startup. Raibert views the competition as a positive thing. “We’re excited to see all these companies out there helping validate the space,” he says. “I think we’re more in competition with finding the right need [that robots can satisfy] than we are with the other people building the robots at this point.”
+
+Why is Boston Dynamics selling Spot now?
+
+Boston Dynamics has long been an R&D-centric firm, with most of its early funding coming from military programs, but it says commercializing robots has always been a goal. Productizing its machines probably accelerated when the company was acquired by Google’s parent company, Alphabet, which had an ambitious (and now apparently very dead) robotics program. The commercial focus likely continued after Alphabet sold Boston Dynamics to SoftBank, whose famed CEO, Masayoshi Son, is known for his love of robots—and profits.
+
+Which should I buy, Spot or Aibo?
+
+Don’t laugh. We’ve gotten emails from individuals interested in purchasing a Spot for personal use after seeing our stories on the robot. Alas, Spot is not a bigger, fancier Aibo pet robot. It’s an expensive, industrial-grade machine that requires development and maintenance. If you’re maybe Jeff Bezos you could probably convince Boston Dynamics to sell you one, but otherwise the company will prioritize businesses.
+
+What’s next for Boston Dynamics?
+
+On the commercial side of things, other than Spot, Boston Dynamics is interested in the logistics space. Earlier this year it announced the acquisition of Kinema Systems, a startup that had developed vision sensors and deep-learning software to enable industrial robot arms to locate and move boxes. There’s also Handle, the mobile robot on whegs (wheels + legs), that can pick up and move packages. Boston Dynamics is hiring both in Waltham, Mass., and Mountain View, Calif., where Kinema was located.
+
+Okay, can I watch a cool video now?
+
+During our visit to Boston Dynamics’ headquarters last month, we saw Atlas and Spot performing some cool new tricks that we unfortunately are not allowed to tell you about. We hope that, although the company is putting a lot of energy and resources into its commercial programs, Boston Dynamics will still find plenty of time to improve its robots, build new ones, and of course, keep making videos. [Update: The company has just released a new Spot video, which we’ve embedded at the top of the post.][Update 2: Boston Dynamics has just released a second video, this time of Atlas doing some of those tricks we saw during our visit and couldn’t tell you about. Enjoy!]
