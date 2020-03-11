@@ -46,8 +46,8 @@ print(re.match(emailpattern2, s8, flags=re.IGNORECASE))"""
 
 import nltk
 
-#nltk.download('gutenberg')
-#nltk.download('punkt')
+nltk.download('gutenberg')
+nltk.download('punkt')
 
 from nltk.corpus import gutenberg
 from pprint import pprint
@@ -116,7 +116,7 @@ print(corpus[0].upper())
 
 
 #remove stopwords
-#nltk.download('stopwords')
+nltk.download('stopwords')
 def remove_stopwords(tokens):
     stopword_list=nltk.corpus.stopwords.words('english')
     filtered_tokens= [token for token in tokens if token not in stopword_list]
@@ -132,7 +132,7 @@ print(filtered_list_3)
 #remove repeating characters
 sample_sentence = 'My schoooool is realllllyyy amaaaazingggg'
 sample_sentence_tokens = tokenize_text(sample_sentence)
-#nltk.download('wordnet')
+nltk.download('wordnet')
 """from nltk.corpus import wordnet
 
 def remove_repeated_characters(tokens):
