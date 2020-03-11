@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55688e37-2720-4482-a098-80c355d23f19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud1_nostem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud1_stemmed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud2_nostem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud2_stemmed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud3_nostem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud3_stemmed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/bostonDynamics_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/bostonDynamics_out_stemmed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/dannyBrown_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/dannyBrown_out_stemmed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/kotlin_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/kotlin_out_stemmed.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab1_Beaudry,Drew.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1_Beaudry,Drew.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SampleCode/feb20-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/SampleCode/feb20-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/bostonDynamics_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bostonDynamics_out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/bostonDynamics_out_stemmed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/bostonDynamics_out_stemmed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/dannyBrown_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/dannyBrown_out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/dannyBrown_out_stemmed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/dannyBrown_out_stemmed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/kotlin_out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/kotlin_out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/kotlin_out_stemmed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/kotlin_out_stemmed.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,22 +138,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="680" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583910126233" />
-    <state width="936" height="282" key="GridCell.Tab.0.bottom" timestamp="1583911273758">
+    <state width="936" height="282" key="GridCell.Tab.0.bottom" timestamp="1583912218243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583911273758" />
-    <state width="936" height="282" key="GridCell.Tab.0.center" timestamp="1583911273758">
+    <state width="936" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583912218243" />
+    <state width="936" height="282" key="GridCell.Tab.0.center" timestamp="1583912218243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583911273758" />
-    <state width="936" height="282" key="GridCell.Tab.0.left" timestamp="1583911273758">
+    <state width="936" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583912218243" />
+    <state width="936" height="282" key="GridCell.Tab.0.left" timestamp="1583912218243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583911273758" />
-    <state width="936" height="282" key="GridCell.Tab.0.right" timestamp="1583911273758">
+    <state width="936" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583912218243" />
+    <state width="936" height="282" key="GridCell.Tab.0.right" timestamp="1583912218243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583911273758" />
+    <state width="936" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583912218243" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1583909850613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,12 +180,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lab1_Beaudry,Drew.py</url>
-          <line>33</line>
+          <line>35</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lab1_Beaudry,Drew.py</url>
-          <line>41</line>
+          <line>43</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

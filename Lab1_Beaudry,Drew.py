@@ -1,6 +1,7 @@
 import codecs
 import re
 import nltk
+
 nltk.download('punkt')
 nltk.download('wordnet')
 from nltk.corpus import wordnet
@@ -17,6 +18,7 @@ def read_file(file_path):
     f.closed
     True
     return corpus
+
 
 # Tokenize sentences and words
 def tokenize_text(text):
@@ -47,6 +49,7 @@ def expand_contractions(sentence, contraction_mapping):
 def lowercase_text(text):
     return text.lower()
 
+
 # Correct repeating characters
 def remove_repeated_characters(tokens):
     repeat_pattern = re.compile(r'(\w*)(\w)\2(\w*)')
@@ -61,6 +64,7 @@ def remove_repeated_characters(tokens):
     correct_tokens = [replace(word) for word in tokens]
     return correct_tokens
 
+
 def stem(text):
     return_text = ""
     ls = LancasterStemmer()
@@ -70,13 +74,18 @@ def stem(text):
     return return_text
 
 
+# Remove special characters
+def remove_special_chars(text):
+    return " ".join(e for e in text if e.isalnum())
+
+
 for file in files:
     text = read_file(file)
     text = expand_contractions(text, CONTRACTION_MAP)
     text = tokenize_text(text)
     text = [lowercase_text(sentence) for something in text for sentence in something]
     text = remove_repeated_characters(text)
-    text = " ".join(text)
+    text = remove_special_chars(text)
     text = stem(text)
     # Print output to console
     print("filename: " + file)
